@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ReactAdminPanel/static/css/main.15caa903.css",
+    "main.js": "/ReactAdminPanel/static/js/main.e92406f7.js",
+    "static/media/bootstrap-icons.woff?": "/ReactAdminPanel/static/media/bootstrap-icons.449ad8adf6ae0424b7ed.woff",
+    "static/media/bootstrap-icons.woff2?": "/ReactAdminPanel/static/media/bootstrap-icons.dea24bf5a7646d8b84e7.woff2",
+    "static/media/avatar-6.jpg": "/ReactAdminPanel/static/media/avatar-6.dc44eabff29dbd9780cb.jpg",
+    "static/media/avatar-1.jpg": "/ReactAdminPanel/static/media/avatar-1.3921191a8acf79d3e907.jpg",
+    "static/media/avatar-4.jpg": "/ReactAdminPanel/static/media/avatar-4.b23e41d9c09997efbc21.jpg",
+    "static/media/avatar-7.jpg": "/ReactAdminPanel/static/media/avatar-7.5ba5195e48f4c2c3c3fa.jpg",
+    "static/media/avatar-8.jpg": "/ReactAdminPanel/static/media/avatar-8.ad5418a90c29c2b98640.jpg",
+    "static/media/avatar-5.jpg": "/ReactAdminPanel/static/media/avatar-5.a5c59cee7b3dfda1156d.jpg",
+    "static/media/avatar-2.jpg": "/ReactAdminPanel/static/media/avatar-2.feb0f89de58f0ef9b424.jpg",
+    "static/media/logo.svg": "/ReactAdminPanel/static/media/logo.e6deae427983f37231ec51a936d2fc0d.svg",
+    "index.html": "/ReactAdminPanel/index.html",
+    "main.15caa903.css.map": "/ReactAdminPanel/static/css/main.15caa903.css.map",
+    "main.e92406f7.js.map": "/ReactAdminPanel/static/js/main.e92406f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15caa903.css",
+    "static/js/main.e92406f7.js"
+  ]
+}
