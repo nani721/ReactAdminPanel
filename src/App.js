@@ -11,14 +11,14 @@ import Form1 from "./Form1";
 import Form2 from "./Form2";
 import Form3 from "./Form3";
 import Nav from "./Nav";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Breadcrumb from "./Bredcrumb";
 import Footer from "./Footer";
 
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="container-fluid bg-secondary min-vh-100 p-0">
         <div className="d-flex">
           <Sidebar />
@@ -41,7 +41,7 @@ function App() {
         </div>
       </div>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
