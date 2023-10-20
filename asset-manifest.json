@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ReactAdminPanel/static/css/main.15caa903.css",
-    "main.js": "/ReactAdminPanel/static/js/main.e92406f7.js",
+    "main.js": "/ReactAdminPanel/static/js/main.9297d758.js",
     "static/media/bootstrap-icons.woff?": "/ReactAdminPanel/static/media/bootstrap-icons.449ad8adf6ae0424b7ed.woff",
     "static/media/bootstrap-icons.woff2?": "/ReactAdminPanel/static/media/bootstrap-icons.dea24bf5a7646d8b84e7.woff2",
     "static/media/avatar-6.jpg": "/ReactAdminPanel/static/media/avatar-6.dc44eabff29dbd9780cb.jpg",
@@ -14,10 +14,10 @@
     "static/media/logo.svg": "/ReactAdminPanel/static/media/logo.e6deae427983f37231ec51a936d2fc0d.svg",
     "index.html": "/ReactAdminPanel/index.html",
     "main.15caa903.css.map": "/ReactAdminPanel/static/css/main.15caa903.css.map",
-    "main.e92406f7.js.map": "/ReactAdminPanel/static/js/main.e92406f7.js.map"
+    "main.9297d758.js.map": "/ReactAdminPanel/static/js/main.9297d758.js.map"
   },
   "entrypoints": [
     "static/css/main.15caa903.css",
-    "static/js/main.e92406f7.js"
+    "static/js/main.9297d758.js"
   ]
 }
