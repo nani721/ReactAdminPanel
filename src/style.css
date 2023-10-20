@@ -1,0 +1,117 @@
+ .sidebar .list-group-item a.active, .sidebar .list-group-item a.active:hover{
+      background-color: #1d67a4 !important;
+      color: #fff;
+}
+.sidebar .list-group-item a:hover{
+    background-color: #e9f5ff  !important;
+    color: #6c757d;
+}
+.sidebar{
+    -webkit-box-shadow: 0 2px 4px rgba(15,34,58,.12);
+    box-shadow: 0 2px 4px rgba(15,34,58,.12);
+}
+.list-group a{
+    cursor: pointer;
+}
+.brand-name img{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.bi.drop-down{
+    float: right;
+}
+.toggle-btn{
+    cursor: pointer;
+}
+.brand-name{
+    font-size: 24px;
+    cursor: pointer;
+    color: #6c757d;
+    position: absolute;
+    top: 10px;
+    right: -50px;
+    z-index: 999;
+}
+.side-menu-bar{
+    padding: 10px 15px;
+    height: 75px;
+    position: relative;
+}
+.sidebar .list-group-item{
+     background-color: transparent;
+     padding: 0 !important;
+     border: 0;
+}
+.sidebar .list-group-item a{
+    display: block;
+    padding: 0.6rem 1.1rem;
+    color: #7b8190;
+    position: relative;
+    font-size: 15px;
+    font-weight: 500;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    margin: 0 10px;
+    border-radius: 3px;
+}
+.brand-name i{
+    font-weight: bold !important;
+}
+.brand-logo{
+    width: 100px;
+}
+.brand-logo img{
+    width: 100%;
+}
+.side-menu.open .brand-logo{
+    width: 50px;
+}
+.sub-menu{
+    height: 0;
+    overflow: hidden;
+    transition: all ease .5s;
+    padding: 0px 25px;
+}
+.menuOpen + .sub-menu{
+    height: auto;
+}
+.card h1.form-header{
+    margin: 0 auto 50px !important;
+    color: #1d67a4 !important;
+}
+.nav-link.menuOpen .bi-chevron-down.toggle-btn{
+    transform: rotate(180deg);
+    transform: translate(all ease .5s);
+}
+@media(max-width: 991px){
+    .side-nav-item{
+        font-size: 18px !important;
+    }
+    .list-group-item .bi{
+        font-size: 18px !important;
+    } 
+    .sidebar .list-group-item a{
+        padding: 10px;
+    }
+    .side-menu .nav-link .side-nav-item{
+      display: none;
+    }
+}
+@media(max-width:767px){
+    .side-nav-item{
+        display: none;
+    }
+    .brand-name img{
+        width: 100%;
+    }
+    .list-group-flush>.list-group-item{
+        text-align: center;
+    }
+    .list-group-item .bi{
+        margin: 0 !important;
+    }
+    .list-group-item .bi {
+        font-size: 14px !important;
+    }
+}

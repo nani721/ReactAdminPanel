@@ -1,0 +1,80 @@
+
+.avatar-xs {
+    height: 2rem;
+    width: 2rem;
+}
+.font-size-15 {
+    font-size: 15px!important;
+}
+.font-size-13 {
+    font-size: 13px!important;
+}
+.font-size-12 {
+    font-size: 12px!important;
+}
+.table-nowrap td, .table-nowrap th {
+    white-space: nowrap;
+}
+.table>:not(caption)>*>* {
+    border-bottom-width: 0;
+    border-top-width: 1px;
+    border-color: #efefef;
+    padding: 0.75rem 0.75rem;
+}
+.table-height{
+    max-height: 205px;
+    height: auto;
+    overflow: hidden scroll;
+}
+.mt-20{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bg-soft-danger {
+    color: #f46a6a;
+    background-color: rgba(244,106,106,.25)!important;
+}
+.bg-soft-success {
+    color: #34c38f;
+    background-color: rgba(52,195,143,.25)!important;
+}
+.bg-soft-info {
+    color: #50a5f1;
+    background-color: rgba(80,165,241,.25)!important;
+}
+.bg-soft-warning {
+    color: #f1b44c;
+    background-color: rgba(241,180,76,.25)!important;
+}
+.badge {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+}
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #8f54a0 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  .table-height::-webkit-scrollbar {
+    width: 11px;
+  }
+
+  .table-height::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  .table-height::-webkit-scrollbar-thumb {
+    background-color: #a2adb7;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+    opacity: .5;
+  }

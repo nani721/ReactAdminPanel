@@ -1,0 +1,30 @@
+.navbar-expand-sm .navbar-nav .dropdown-menu {
+    position: absolute;
+    left: -80%;
+}
+.navbar-brand {
+    cursor: pointer;
+}
+.navbar-brand img{
+    width: 120px;
+    margin: 0;
+}
+.navbar{
+    height: 75px;
+    width: 75%;
+    margin-left: auto;
+}
+.admin-text a{
+    color: #6c757d !important;
+    font-size: 18px;
+    font-weight: 500;
+}
+.admin-text a:hover{
+    color: #6c757d !important;
+}
+
+@media(max-width:767px){
+    .navbar-expand-sm .navbar-nav .dropdown-menu{
+        left: 0;
+    }
+}
